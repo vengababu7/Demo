@@ -1,0 +1,6 @@
+framework module Pods_NevaTaskTests {
+  umbrella header "Pods-NevaTaskTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

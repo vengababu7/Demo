@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DA38B53994634E7FA15B9DC /* Pods_NevaTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861394AAB4B63515A9A24039 /* Pods_NevaTaskTests.framework */; };
+		6C0699552214071D00BACD05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0699542214071D00BACD05 /* AppDelegate.swift */; };
+		6C0699572214071D00BACD05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0699562214071D00BACD05 /* ViewController.swift */; };
+		6C06995A2214071D00BACD05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C0699582214071D00BACD05 /* Main.storyboard */; };
+		6C06995C2214071E00BACD05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C06995B2214071E00BACD05 /* Assets.xcassets */; };
+		6C06995F2214071E00BACD05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C06995D2214071E00BACD05 /* LaunchScreen.storyboard */; };
+		6C06996A2214071F00BACD05 /* NevaTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0699692214071F00BACD05 /* NevaTaskTests.swift */; };
+		6C0699752214071F00BACD05 /* NevaTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0699742214071F00BACD05 /* NevaTaskUITests.swift */; };
+		6C0699892214088200BACD05 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0699882214088200BACD05 /* NetworkLayer.swift */; };
+		6C197A1822145B54006F6442 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C197A1722145B54006F6442 /* DataModel.swift */; };
+		6C197A1C22145BA7006F6442 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C197A1B22145BA7006F6442 /* DataTableViewCell.swift */; };
+		98AB26EC90DC503037486597 /* Pods_NevaTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1DF58A337735D408C5058E /* Pods_NevaTaskUITests.framework */; };
+		9E705F18D5DFD1442F588F78 /* Pods_NevaTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0845C73D5B905050B5861401 /* Pods_NevaTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C0699662214071F00BACD05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C0699492214071C00BACD05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C0699502214071C00BACD05;
+			remoteInfo = NevaTask;
+		};
+		6C0699712214071F00BACD05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C0699492214071C00BACD05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C0699502214071C00BACD05;
+			remoteInfo = NevaTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0277875D6C02A4F49738F9E4 /* Pods-NevaTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NevaTaskTests.release.xcconfig"; path = "Target Support Files/Pods-NevaTaskTests/Pods-NevaTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		0845C73D5B905050B5861401 /* Pods_NevaTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NevaTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1DF58A337735D408C5058E /* Pods_NevaTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NevaTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5ADDAC0D8EF814B5CA2314 /* Pods-NevaTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NevaTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-NevaTaskTests/Pods-NevaTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		681158114E149AAD15294487 /* Pods-NevaTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NevaTask.release.xcconfig"; path = "Target Support Files/Pods-NevaTask/Pods-NevaTask.release.xcconfig"; sourceTree = "<group>"; };
+		6C0699512214071C00BACD05 /* NevaTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NevaTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0699542214071D00BACD05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C0699562214071D00BACD05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C0699592214071D00BACD05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C06995B2214071E00BACD05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C06995E2214071E00BACD05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C0699602214071E00BACD05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C0699652214071F00BACD05 /* NevaTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NevaTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0699692214071F00BACD05 /* NevaTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NevaTaskTests.swift; sourceTree = "<group>"; };
+		6C06996B2214071F00BACD05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C0699702214071F00BACD05 /* NevaTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NevaTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0699742214071F00BACD05 /* NevaTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NevaTaskUITests.swift; sourceTree = "<group>"; };
+		6C0699762214071F00BACD05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C0699882214088200BACD05 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		6C197A1722145B54006F6442 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		6C197A1B22145BA7006F6442 /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		708944A25E18777596926F64 /* Pods-NevaTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NevaTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-NevaTaskUITests/Pods-NevaTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		861394AAB4B63515A9A24039 /* Pods_NevaTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NevaTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B407E58D2FD7B1F1472B222B /* Pods-NevaTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NevaTask.debug.xcconfig"; path = "Target Support Files/Pods-NevaTask/Pods-NevaTask.debug.xcconfig"; sourceTree = "<group>"; };
+		CC4013E7F40A3B5D7CC997AE /* Pods-NevaTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NevaTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-NevaTaskUITests/Pods-NevaTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C06994E2214071C00BACD05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E705F18D5DFD1442F588F78 /* Pods_NevaTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0699622214071F00BACD05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA38B53994634E7FA15B9DC /* Pods_NevaTaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C06996D2214071F00BACD05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98AB26EC90DC503037486597 /* Pods_NevaTaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AD46CACAA6974076BAEFA33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B407E58D2FD7B1F1472B222B /* Pods-NevaTask.debug.xcconfig */,
+				681158114E149AAD15294487 /* Pods-NevaTask.release.xcconfig */,
+				3F5ADDAC0D8EF814B5CA2314 /* Pods-NevaTaskTests.debug.xcconfig */,
+				0277875D6C02A4F49738F9E4 /* Pods-NevaTaskTests.release.xcconfig */,
+				708944A25E18777596926F64 /* Pods-NevaTaskUITests.debug.xcconfig */,
+				CC4013E7F40A3B5D7CC997AE /* Pods-NevaTaskUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C0699482214071C00BACD05 = {
+			isa = PBXGroup;
+			children = (
+				6C0699532214071C00BACD05 /* NevaTask */,
+				6C0699682214071F00BACD05 /* NevaTaskTests */,
+				6C0699732214071F00BACD05 /* NevaTaskUITests */,
+				6C0699522214071C00BACD05 /* Products */,
+				0AD46CACAA6974076BAEFA33 /* Pods */,
+				C397EEB300FB87A8926277C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C0699522214071C00BACD05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C0699512214071C00BACD05 /* NevaTask.app */,
+				6C0699652214071F00BACD05 /* NevaTaskTests.xctest */,
+				6C0699702214071F00BACD05 /* NevaTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C0699532214071C00BACD05 /* NevaTask */ = {
+			isa = PBXGroup;
+			children = (
+				6C0699832214083C00BACD05 /* MainController */,
+				6C0699822214083500BACD05 /* NetworkLayer */,
+				6C0699542214071D00BACD05 /* AppDelegate.swift */,
+				6C0699582214071D00BACD05 /* Main.storyboard */,
+				6C06995B2214071E00BACD05 /* Assets.xcassets */,
+				6C06995D2214071E00BACD05 /* LaunchScreen.storyboard */,
+				6C0699602214071E00BACD05 /* Info.plist */,
+			);
+			path = NevaTask;
+			sourceTree = "<group>";
+		};
+		6C0699682214071F00BACD05 /* NevaTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C0699692214071F00BACD05 /* NevaTaskTests.swift */,
+				6C06996B2214071F00BACD05 /* Info.plist */,
+			);
+			path = NevaTaskTests;
+			sourceTree = "<group>";
+		};
+		6C0699732214071F00BACD05 /* NevaTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C0699742214071F00BACD05 /* NevaTaskUITests.swift */,
+				6C0699762214071F00BACD05 /* Info.plist */,
+			);
+			path = NevaTaskUITests;
+			sourceTree = "<group>";
+		};
+		6C0699822214083500BACD05 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				6C0699882214088200BACD05 /* NetworkLayer.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		6C0699832214083C00BACD05 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				6C0699872214085F00BACD05 /* Model */,
+				6C0699852214085500BACD05 /* view */,
+				6C0699842214085000BACD05 /* controller */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		6C0699842214085000BACD05 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				6C0699562214071D00BACD05 /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		6C0699852214085500BACD05 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6C197A1B22145BA7006F6442 /* DataTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6C0699872214085F00BACD05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C197A1722145B54006F6442 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C397EEB300FB87A8926277C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0845C73D5B905050B5861401 /* Pods_NevaTask.framework */,
+				861394AAB4B63515A9A24039 /* Pods_NevaTaskTests.framework */,
+				2B1DF58A337735D408C5058E /* Pods_NevaTaskUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C0699502214071C00BACD05 /* NevaTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C0699792214071F00BACD05 /* Build configuration list for PBXNativeTarget "NevaTask" */;
+			buildPhases = (
+				0CA9B8E26DBBE9EA9F85D952 /* [CP] Check Pods Manifest.lock */,
+				6C06994D2214071C00BACD05 /* Sources */,
+				6C06994E2214071C00BACD05 /* Frameworks */,
+				6C06994F2214071C00BACD05 /* Resources */,
+				ABAACA8EB04C16F1CB4A8B25 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NevaTask;
+			productName = NevaTask;
+			productReference = 6C0699512214071C00BACD05 /* NevaTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C0699642214071F00BACD05 /* NevaTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C06997C2214071F00BACD05 /* Build configuration list for PBXNativeTarget "NevaTaskTests" */;
+			buildPhases = (
+				D8B804FFBADCC01F7514ADA0 /* [CP] Check Pods Manifest.lock */,
+				6C0699612214071F00BACD05 /* Sources */,
+				6C0699622214071F00BACD05 /* Frameworks */,
+				6C0699632214071F00BACD05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C0699672214071F00BACD05 /* PBXTargetDependency */,
+			);
+			name = NevaTaskTests;
+			productName = NevaTaskTests;
+			productReference = 6C0699652214071F00BACD05 /* NevaTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C06996F2214071F00BACD05 /* NevaTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C06997F2214071F00BACD05 /* Build configuration list for PBXNativeTarget "NevaTaskUITests" */;
+			buildPhases = (
+				E61C7063A3DB83F9F2846F3B /* [CP] Check Pods Manifest.lock */,
+				6C06996C2214071F00BACD05 /* Sources */,
+				6C06996D2214071F00BACD05 /* Frameworks */,
+				6C06996E2214071F00BACD05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C0699722214071F00BACD05 /* PBXTargetDependency */,
+			);
+			name = NevaTaskUITests;
+			productName = NevaTaskUITests;
+			productReference = 6C0699702214071F00BACD05 /* NevaTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C0699492214071C00BACD05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Vengababu Maparthi";
+				TargetAttributes = {
+					6C0699502214071C00BACD05 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6C0699642214071F00BACD05 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6C0699502214071C00BACD05;
+					};
+					6C06996F2214071F00BACD05 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6C0699502214071C00BACD05;
+					};
+				};
+			};
+			buildConfigurationList = 6C06994C2214071C00BACD05 /* Build configuration list for PBXProject "NevaTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C0699482214071C00BACD05;
+			productRefGroup = 6C0699522214071C00BACD05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C0699502214071C00BACD05 /* NevaTask */,
+				6C0699642214071F00BACD05 /* NevaTaskTests */,
+				6C06996F2214071F00BACD05 /* NevaTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C06994F2214071C00BACD05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C06995F2214071E00BACD05 /* LaunchScreen.storyboard in Resources */,
+				6C06995C2214071E00BACD05 /* Assets.xcassets in Resources */,
+				6C06995A2214071D00BACD05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0699632214071F00BACD05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C06996E2214071F00BACD05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CA9B8E26DBBE9EA9F85D952 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NevaTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABAACA8EB04C16F1CB4A8B25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NevaTask/Pods-NevaTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NevaTask/Pods-NevaTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8B804FFBADCC01F7514ADA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NevaTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E61C7063A3DB83F9F2846F3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NevaTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C06994D2214071C00BACD05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0699892214088200BACD05 /* NetworkLayer.swift in Sources */,
+				6C197A1C22145BA7006F6442 /* DataTableViewCell.swift in Sources */,
+				6C197A1822145B54006F6442 /* DataModel.swift in Sources */,
+				6C0699572214071D00BACD05 /* ViewController.swift in Sources */,
+				6C0699552214071D00BACD05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0699612214071F00BACD05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C06996A2214071F00BACD05 /* NevaTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C06996C2214071F00BACD05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0699752214071F00BACD05 /* NevaTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C0699672214071F00BACD05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C0699502214071C00BACD05 /* NevaTask */;
+			targetProxy = 6C0699662214071F00BACD05 /* PBXContainerItemProxy */;
+		};
+		6C0699722214071F00BACD05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C0699502214071C00BACD05 /* NevaTask */;
+			targetProxy = 6C0699712214071F00BACD05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C0699582214071D00BACD05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C0699592214071D00BACD05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C06995D2214071E00BACD05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C06995E2214071E00BACD05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C0699772214071F00BACD05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C0699782214071F00BACD05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C06997A2214071F00BACD05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B407E58D2FD7B1F1472B222B /* Pods-NevaTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DQC2RPDRW;
+				INFOPLIST_FILE = NevaTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.com.NevaTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C06997B2214071F00BACD05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 681158114E149AAD15294487 /* Pods-NevaTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DQC2RPDRW;
+				INFOPLIST_FILE = NevaTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.com.NevaTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C06997D2214071F00BACD05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F5ADDAC0D8EF814B5CA2314 /* Pods-NevaTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DQC2RPDRW;
+				INFOPLIST_FILE = NevaTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.com.NevaTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NevaTask.app/NevaTask";
+			};
+			name = Debug;
+		};
+		6C06997E2214071F00BACD05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0277875D6C02A4F49738F9E4 /* Pods-NevaTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DQC2RPDRW;
+				INFOPLIST_FILE = NevaTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.com.NevaTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NevaTask.app/NevaTask";
+			};
+			name = Release;
+		};
+		6C0699802214071F00BACD05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708944A25E18777596926F64 /* Pods-NevaTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DQC2RPDRW;
+				INFOPLIST_FILE = NevaTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.com.NevaTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NevaTask;
+			};
+			name = Debug;
+		};
+		6C0699812214071F00BACD05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC4013E7F40A3B5D7CC997AE /* Pods-NevaTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DQC2RPDRW;
+				INFOPLIST_FILE = NevaTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.com.NevaTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NevaTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C06994C2214071C00BACD05 /* Build configuration list for PBXProject "NevaTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0699772214071F00BACD05 /* Debug */,
+				6C0699782214071F00BACD05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C0699792214071F00BACD05 /* Build configuration list for PBXNativeTarget "NevaTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C06997A2214071F00BACD05 /* Debug */,
+				6C06997B2214071F00BACD05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C06997C2214071F00BACD05 /* Build configuration list for PBXNativeTarget "NevaTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C06997D2214071F00BACD05 /* Debug */,
+				6C06997E2214071F00BACD05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C06997F2214071F00BACD05 /* Build configuration list for PBXNativeTarget "NevaTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0699802214071F00BACD05 /* Debug */,
+				6C0699812214071F00BACD05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C0699492214071C00BACD05 /* Project object */;
+}
